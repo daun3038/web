@@ -1,0 +1,15 @@
+<html>
+    <head></head>
+    <body>
+        <input type="button" id = 'btnclk' value = '버튼'>
+        <script>
+            function first(){
+                alert('first message');
+            }
+            btnclk.addEventListener('click',first);
+            btnclk.addEventListener('click',function(){
+                alert('second message!!!');
+            });
+        </script>
+    </body>
+</html>
